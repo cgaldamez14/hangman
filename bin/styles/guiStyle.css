@@ -1,0 +1,59 @@
+.root{
+	-fx-background-color: #400000 ;
+}
+
+.background{
+     -fx-background-image: url("background.jpg");
+}
+
+.center{
+	-fx-alignment: CENTER;
+}
+
+.paddingVertical{
+	-fx-padding: 20px 0;
+}
+
+.paddingHorizontal{
+	-fx-padding: 0 40px;
+}
+
+.hangManText {
+	-fx-padding: 30px;
+	-fx-font-size: 32px;
+	-fx-font-family: "Arial Black";
+	-fx-text-fill: #c0c0c0;
+	-fx-effect: innershadow(three-pass-box , black , 6, 0.0 , 0 , 2 );
+}
+
+.regularText {
+	-fx-font-size: 17px;
+	-fx-font-family: "Arial Narrow";
+	-fx-text-fill: black;
+	-fx-font-weight: bold;
+}
+
+.titleText {
+	-fx-font-size: 20px;
+	-fx-font-family: "Arial Narrow";
+	-fx-text-fill: #400000;
+	-fx-font-weight: bolder;
+}
+
+
+.endButtons{
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-padding: 5px 40px;
+	-fx-background-color: linear-gradient(#303030 , #707070 );
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.endButtons:hover {
+    -fx-background-color: linear-gradient(#707070 , #303030);
+}
+
+.menu_bar{
+    -fx-background-color:  #404040;
+}
